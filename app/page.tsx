@@ -22,11 +22,6 @@ export default function Portfolio() {
     "Cybersecurity",
     "Network Analysis",
     "Digital Forensics",
-    "Leadership",
-    "Strategic Planning",
-    "Team Management",
-    "Operations",
-    "Intelligence Analysis",
   ]
 
   const projects = [
@@ -66,7 +61,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Shield className="h-6 w-6 text-red-400" />
-            <span className="text-xl font-bold text-white">Lycan</span>
+            <span className="text-xl font-bold text-white">whomai</span>
           </div>
           <nav className="hidden md:flex space-x-6">
             <Link href="#about" className="text-slate-300 hover:text-red-400 transition-colors">
@@ -306,14 +301,14 @@ export default function Portfolio() {
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Shield className="h-5 w-5 text-red-400" />
-            <span className="text-slate-300">Lycan • 0wardriver0</span>
+            <span className="text-slate-300">0wardriver0</span>
           </div>
           <div className="flex items-center justify-center space-x-2 text-slate-400 text-sm">
             <MapPin className="h-4 w-4" />
             <span>Tri-State</span>
           </div>
           <p className="text-slate-500 text-sm mt-4">
-            © {new Date().getFullYear()} Lycan. Built with precision and purpose.
+            © {new Date().getFullYear()} Built with precision and purpose.
           </p>
         </div>
       </footer>
